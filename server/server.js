@@ -40,7 +40,7 @@ app.use(errorMiddleware)
 //     res.status(200).send("This is registration page")
 // })
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 connectDb().then(()=>{
     app.listen(PORT,()=>{
