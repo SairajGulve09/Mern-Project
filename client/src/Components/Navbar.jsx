@@ -14,7 +14,7 @@ const Navbar = () => {
       <header>
         <div className="container">
           <div className="brand-logo">
-            <NavLink to='/'>Demo</NavLink>
+            <NavLink to='/'>Polyverse</NavLink>
           </div>
 
           <nav>
