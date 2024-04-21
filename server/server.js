@@ -16,7 +16,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 
 //cors policy handle
 const corsOptions = {
-    origin: "http://localhost:5173",
+    origin: "https://polyverse-frontend.vercel.app",
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
 }
